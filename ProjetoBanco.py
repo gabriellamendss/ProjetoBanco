@@ -11,6 +11,7 @@ class ContaCorrente:
         self.nome = nome
         self.numero_conta = random.randint(100, 999)
         self.__senha = senha
+        #__ antes pq é privado
         self.__saldo_corrente = 0.0
         self.tentativas_senha = 0
         self.bloqueada = False
